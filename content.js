@@ -7,23 +7,14 @@ class Content extends PureComponent {
   };
 
   static propTypes = {
+    /**
+      Name for the component.
+    */
     name: PropTypes.string
   };
   render() {
     return <div>123</div>;
   }
 }
-
-Content.propTypes = {
-  /**
-    Label for the button.
-  */
-  label: PropTypes.string,
-
-  /**
-    Triggered when clicked on the button.
-  */
-  onClick: PropTypes.func
-};
 
 module.exports = Content;
