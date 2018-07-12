@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "prop-types": "^15.6.2",
+    "prop-types-definition": "^1.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
